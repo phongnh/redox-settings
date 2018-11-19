@@ -10,13 +10,10 @@ enum redox_layers {
     _SAMPLE,
 };
 
-enum custom_keycodes {
-    QWERTY = SAFE_RANGE,
+enum redox_keycodes {
+    PLACHOLDER = SAFE_RANGE,
     LOWER,
     RAISE,
-    MOUSE,
-    EPRM,
-    VRSN,
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
