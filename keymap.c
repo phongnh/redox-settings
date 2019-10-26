@@ -16,8 +16,8 @@ enum redox_keycodes {
     RAISE,
 };
 
-#define LWR_PUP LT(_LOWER, KC_PGUP)     // Turn on _LOWER layer held, PgUp when tapped
-#define RSE_END LT(_RAISE, KC_END)      // Turn on _RAISE layer held, End when tapped
+#define LWR_PUP LT(_LOWER, KC_PGUP)     // Turn on _LOWER layer when held, PgUp when tapped
+#define RSE_END LT(_RAISE, KC_END)      // Turn on _RAISE layer when held, End when tapped
 #define MOU_SCL LT(_MOUSE, KC_SCLN)     // Turn on _MOUSE layer when held, ; when tapped
 #define CTL_ESC LCTL_T(KC_ESC)          // Left Control when held, Esc when tapped
 #define CTL_Z   LCTL_T(KC_Z)            // Left Control when held, z when tapped
