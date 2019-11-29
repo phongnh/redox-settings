@@ -23,8 +23,8 @@ enum redox_keycodes {
 #define CTL_Z   LCTL_T(KC_Z)            // Left Control when held, z when tapped
 #define CTL_SCL LCTL_T(KC_SCLN)         // Left Control when held, ; when tapped
 #define CTL_SLS RCTL_T(KC_SLSH)         // Right Control when held, / when tapped
-#define GUI_QUO RGUI_T(KC_QUOT)         // Right Gui when held, " when tapped
-#define CAG_QUO LCAG_T(KC_QUOT)         // Ctrl+Alt+Gui when held, " when tapped
+#define GUI_QUO RGUI_T(KC_QUOT)         // Right Gui when held, ' when tapped
+#define CAG_QUO LCAG_T(KC_QUOT)         // Ctrl+Alt+Gui when held, ' when tapped
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
